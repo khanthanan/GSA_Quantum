@@ -13,4 +13,11 @@ These files estimate the quantum probabilities used for function evaluations.
 ## getModelResponseError*.m files
 These files estimate the errors corresponding to the measurement and the model response. 
 
-## 
+## IBM_full_data_athens.mat file
+This file consists of the experimental measurements of the eight quantum state probabilities. 
+
+
+## output 
+The main code has two outputs
+1. stat.mat file that consists of all the statistical estimations required for the global sensitivity analysis. 
+2. allChain.mat file that consisits of all the Markov chains obtained in the UQ analysis.
